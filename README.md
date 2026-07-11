@@ -18,7 +18,7 @@ The design represents a highly structured, symmetrical approach to building a fo
 ## 📊 Technical Requirements & Analysis
 
 ### 1. Structure & Material Volume
-*   **Body Dimensions:** Approximately $140\text{ mm} \times 75\text{ mm} \times 10\text{ mm}$ (Main plate thickness: $4\text{ mm}$).
+*   **Body Dimensions:** Approximately $100\text{ mm} \times 28\text{ mm} \times 20\text{ mm}$ (Main plate thickness: $4\text{ mm}$).
 *   **Weight Management:** The frame includes inner structural cutouts to significantly reduce the total mass (and therefore the inertia) while maintaining robust bending stiffness.
 
 ### 2. Kinematics & Degrees of Freedom (DoF)
@@ -61,3 +61,7 @@ To ensure safety and continuous balance, a periodic **Static Crawl Gait** is pro
 *   **Structural Deflection:** 3D-printed leg extensions can flex under dynamic loads; printing with a higher infill density ($>40\%$ with cubic patterns) is highly recommended.
 *   **Thermal Fatigue:** Operating close to the stall torque limit will cause the micro-servos to overheat quickly, requiring periodic cooldown cycles in code.
 
+Front Left [o]===========[] Front Right
+                 |    *    |   <-- (*) Center of Gravity
+                 |  (CoG)  |
+    Rear Left [o]===========[] Rear Right
