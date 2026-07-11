@@ -60,8 +60,4 @@ To ensure safety and continuous balance, a periodic **Static Crawl Gait** is pro
 *   **Backlash & Play:** Cheap plastic gears inside the SG90 servos will introduce minor angular inaccuracies, leading to wobble over long periods.
 *   **Structural Deflection:** 3D-printed leg extensions can flex under dynamic loads; printing with a higher infill density ($>40\%$ with cubic patterns) is highly recommended.
 *   **Thermal Fatigue:** Operating close to the stall torque limit will cause the micro-servos to overheat quickly, requiring periodic cooldown cycles in code.
-
-Front Left [o]===========[] Front Right
-                 |    *    |   <-- (*) Center of Gravity
-                 |  (CoG)  |
-    Rear Left [o]===========[] Rear Right
+* 
